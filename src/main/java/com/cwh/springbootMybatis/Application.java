@@ -24,6 +24,7 @@ public class Application implements CommandLineRunner{
 	/**
 	 * 查看用了什么数据库连接池
 	 */
+//	add by test2
 	public void run(String... args) throws Exception {
         System.out.println("DATASOURCE = " + dataSource);
     }
